@@ -1,0 +1,66 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1160" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.5" stop-color="#132238"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="card" x1="820" y1="150" x2="1080" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#FACC15"/>
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="1280" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" rx="36" fill="url(#bg)"/>
+  <g filter="url(#blur)" opacity="0.35">
+    <circle cx="1080" cy="120" r="120" fill="#60A5FA"/>
+    <circle cx="190" cy="560" r="140" fill="#22C55E"/>
+    <circle cx="960" cy="520" r="110" fill="#F59E0B"/>
+  </g>
+
+  <rect x="64" y="72" width="1152" height="496" rx="28" fill="white" fill-opacity="0.05" stroke="white" stroke-opacity="0.14"/>
+
+  <rect x="92" y="118" width="168" height="168" rx="30" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.16"/>
+  <path d="M135 164C135 153.507 143.507 145 154 145H205.716C210.756 145 215.59 147.002 219.154 150.566L240.434 171.846C243.998 175.41 246 180.244 246 185.284V241C246 251.493 237.493 260 227 260H154C143.507 260 135 251.493 135 241V164Z" fill="url(#accent)"/>
+  <path d="M205 145V173C205 179.627 210.373 185 217 185H245" stroke="#0F172A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M165 214H216" stroke="#0F172A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M165 235H198" stroke="#0F172A" stroke-width="10" stroke-linecap="round"/>
+
+  <text x="92" y="366" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="700">Scripts Vault</text>
+  <text x="92" y="416" fill="#D6E6FF" font-family="Segoe UI, Arial, sans-serif" font-size="28">
+    Good scripts. Clear structure. Trustworthy setup.
+  </text>
+
+  <g opacity="0.95">
+    <rect x="760" y="140" width="420" height="286" rx="28" fill="url(#card)" stroke="white" stroke-opacity="0.18"/>
+    <text x="800" y="198" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Repository Rules</text>
+
+    <circle cx="814" cy="236" r="8" fill="#22C55E"/>
+    <text x="836" y="244" fill="#EAF2FF" font-family="Segoe UI, Arial, sans-serif" font-size="22">Organized by language</text>
+
+    <circle cx="814" cy="286" r="8" fill="#60A5FA"/>
+    <text x="836" y="294" fill="#EAF2FF" font-family="Segoe UI, Arial, sans-serif" font-size="22">Setup guide inside each folder</text>
+
+    <circle cx="814" cy="336" r="8" fill="#FACC15"/>
+    <text x="836" y="344" fill="#EAF2FF" font-family="Segoe UI, Arial, sans-serif" font-size="22">Script-level dependency notes</text>
+
+    <circle cx="814" cy="386" r="8" fill="#FB7185"/>
+    <text x="836" y="394" fill="#EAF2FF" font-family="Segoe UI, Arial, sans-serif" font-size="22">Made to be easy to trust</text>
+  </g>
+
+  <rect x="92" y="478" width="176" height="42" rx="21" fill="white" fill-opacity="0.1" stroke="white" stroke-opacity="0.18"/>
+  <text x="120" y="505" fill="#EAF2FF" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">python_scripts</text>
+
+  <rect x="286" y="478" width="164" height="42" rx="21" fill="white" fill-opacity="0.1" stroke="white" stroke-opacity="0.18"/>
+  <text x="319" y="505" fill="#EAF2FF" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">setup guides</text>
+
+  <rect x="468" y="478" width="164" height="42" rx="21" fill="white" fill-opacity="0.1" stroke="white" stroke-opacity="0.18"/>
+  <text x="503" y="505" fill="#EAF2FF" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">clean scripts</text>
+</svg>
