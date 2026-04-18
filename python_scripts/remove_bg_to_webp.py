@@ -1,7 +1,15 @@
 from __future__ import annotations
 
-"""Convierte imagenes con fondo uniforme a WEBP con transparencia."""
+"""Convierte imagenes con fondo uniforme a WEBP con transparencia.
 
+Instalacion:
+- Abre una terminal dentro de la raiz del proyecto `scripts-vault`.
+- Si no tienes Pillow instalado, ejecuta: `pip install Pillow`
+
+Ejecucion:
+- Desde la misma raiz del proyecto ejecuta:
+  `python python_scripts/remove_bg_to_webp.py --input "C:\ruta\entrada" --output "C:\ruta\salida"`
+"""
 import argparse
 import io
 import math

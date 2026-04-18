@@ -16,10 +16,30 @@ Convierte imagenes con fondo uniforme a archivos `.webp` con transparencia, inte
 
 ## Requisitos
 
-Instala Pillow:
+Si no tienes Python instalado en tu PC:
+
+1. Descarga Python desde `https://www.python.org/downloads/windows/`
+2. Ejecuta el instalador
+3. Marca la opcion `Add python.exe to PATH`
+4. Pulsa `Install Now`
+5. Cierra y vuelve a abrir la terminal
+
+Para comprobar que quedo instalado:
 
 ```bash
-pip install -r python_scripts/requirements.txt
+python --version
+```
+
+Si ese comando no funciona, prueba:
+
+```bash
+py --version
+```
+
+Despues instala Pillow:
+
+```bash
+pip install Pillow
 ```
 
 ## Uso
